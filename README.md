@@ -37,37 +37,37 @@ Install the required packages: pip install -r requirements.txt
 Usage
 To run the Flask app, use the following command:
 
-sh
-Copy code
-flask run
+- sh
+- Copy code
+- flask run
 The API endpoints for fetching and pushing data are:
 
-GET /Assembly and POST /Assembly: Use these endpoints to fetch and push data to and from the Assembly table.
-GET /subAssembly and POST /subAssembly: Use these endpoints to fetch and push data to and from the Sub-Assembly table.
-GET /fabrication and POST /fabrication: Use these endpoints to fetch and push data to and from the Fabrication table.
-POST /login: Use this endpoint to login and access the data.
-The data is assumed to be forecasted data and real-time data entered by the user.
+- GET /Assembly and POST /Assembly: Use these endpoints to fetch and push data to and from the Assembly table.
+- GET /subAssembly and POST /subAssembly: Use these endpoints to fetch and push data to and from the Sub-Assembly table.
+- GET /fabrication and POST /fabrication: Use these endpoints to fetch and push data to and from the Fabrication table.
+- POST /login: Use this endpoint to login and access the data.
+- The data is assumed to be forecasted data and real-time data entered by the user.
 
 ## Database Schema
 The database schema for this project is designed to be in the 2nd Normal Form (2NF). It consists of three tables:
 
-assembly table
-sub_assembly table
-fabrication table
-Security
-To protect the data in the API endpoints, a login mechanism has been implemented. Users need to enter their login credentials to access the data.
+- assembly table
+- sub_assembly table
+- fabrication table
+- Security
+- To protect the data in the API endpoints, a login mechanism has been implemented. Users need to enter their login credentials to access the data.
 
-Limitations and Future Work
-This project is still in its early stages and has some limitations. For example, the database could be further optimized to reduce redundancy and increase efficiency.
+## Limitations and Future Work
+- This project is still in its early stages and has some limitations. For example, the database could be further optimized to reduce redundancy and increase efficiency.
 
-In the future, we plan to add support for JWT authentication and authorization. We also plan to integrate the front-end ReactJS application with the API to create a complete solution for the Redundant Data in Data Lake project.
+- In the future, we plan to add support for JWT authentication and authorization. We also plan to integrate the front-end ReactJS application with the API to create a complete solution for the Redundant Data in Data Lake project.
 
 ## Contributors
-Sidhharth
-sahana
-Pranjali
-Arushi
-Vittal
+- Sidhharth
+- sahana
+- Pranjali
+- Arushi
+- Vittal
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
